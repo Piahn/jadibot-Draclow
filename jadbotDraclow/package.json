@@ -1,0 +1,31 @@
+{
+  "name": "jadibot_draclow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js && npx json-server db.json --port 3001",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "jadibot",
+    "draclow"
+  ],
+  "author": "Piahn",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1",
+    "json-server": "^1.0.0-beta.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
